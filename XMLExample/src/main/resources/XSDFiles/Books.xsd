@@ -19,7 +19,7 @@
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
-							<xsd:element name="price">
+							<xsd:element name="cost">
 								<xsd:simpleType>
 									<xsd:restriction
 										base="xsd:double">

@@ -42,8 +42,7 @@ public class Book {
 		this.cost = cost;
 	}
 
-	public Book(String id) throws BookException {
-		Catalog cat = pkgLibrary.Book.ReadXMLFile();
+	public Book(Catalog cat, String id) throws BookException {
 		Book book = null;
 		
 		for (Book b : cat.getBooks()) {
